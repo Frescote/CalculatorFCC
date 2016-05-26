@@ -11,9 +11,7 @@ $( document ).ready(function() {
         if(command === "Equals") {
             displayStr = evalutateExpression(displayStr);
             $('#screen').val(displayStr);
-            
         }else{
-            
             switch (command) {
                 case "0":
                     displayStr += "0";
